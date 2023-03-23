@@ -175,6 +175,7 @@ import { useNavigate } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import logo from "../images/finallogo.png"
+import Footer from './signup/Footer';
 const SignUpPage = () => {
    
     const [password, setPassword] = useState('');
@@ -328,70 +329,7 @@ const validatePassword = (password) => {
                     </section>
                 </div>
             </main>
-            <footer>
-                <div class="footer-part">
-                    <div class="container">
-                        <div class="footer-inner">
-                            <div class="question-part">
-                                <span>Questions? Call</span> <a href="#">000-800-919-0000</a>
-                            </div>
-                            <div class="footer-links">
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-4 col-xs-12">
-                                        <div class="footer-link-ul">
-                                            <ul>
-                                                <li><a href="#">FAQ</a></li>
-                                                <li><a href="#">Accounts</a></li>
-                                                <li><a href="#">Jobs</a></li>
-                                                <li><a href="#">Privacy</a></li>
-                                                <li><a href="#">Contact Us</a></li>
-                                                <li><a href="#">Only on Flixxit</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-4 col-xs-12">
-                                        <div class="footer-link-ul">
-                                            <ul>
-                                                <li><a href="#">Gift Card Terms</a></li>
-                                                <li><a href="#">Media Centre</a></li>
-                                                <li><a href="#">Ways to Watch</a></li>
-                                                <li><a href="#">Cookie Preferences</a></li>
-                                                <li><a href="#">Speed Test</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 col-sm-4 col-xs-12">
-                                        <div class="footer-link-ul">
-                                            <ul>
-                                                <li><a href="#">Help Centre</a></li>
-                                                <li><a href="#">Investor Relations</a></li>
-                                                <li><a href="#">Terms of Use</a></li>
-                                                <li><a href="#">Corporate Information</a></li>
-                                                <li><a href="#">Legal Notices</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="footer-language">
-                                <div class="dropdown">
-                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <img src="images/global.svg" alt="" /> English
-                                    </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <li><a class="dropdown-item" href="#">English</a></li>
-                                        <li><a class="dropdown-item" href="#">German</a></li>
-                                        <li><a class="dropdown-item" href="#">French</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="copy-right">
-                                <span>Flixxit India</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
+          <Footer/>
         </div>
 
     )

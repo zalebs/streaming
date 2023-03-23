@@ -35,10 +35,10 @@ const Part6 = () => {
                                     <tbody>
                                         <tr>
                                             <td>Monthly price</td>
-                                            <td>₹149</td>
-                                            <td className="is-select">₹199</td>
-                                            <td>₹499</td>
-                                            <td>₹649</td>
+                                            <td>£149</td>
+                                            <td className="is-select">£199</td>
+                                            <td>£499</td>
+                                            <td>£649</td>
                                         </tr>
                                         <tr>
                                             <td>Video quality</td>

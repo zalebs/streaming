@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from "../images/finallogo.png"
 import { useNavigate } from 'react-router-dom';
+import Footer from './signup/Footer';
 const About = () => {
     const navigate = useNavigate()
   return (
@@ -65,64 +66,7 @@ const About = () => {
             </section>
         </div>
     </main>
-    <footer>
-        <div class="footer-part">
-            <div class="container">
-                <div class="footer-inner">
-                    <div class="question-part">
-                        <span>Questions? Call</span> <a href="#">000-800-919-0000</a>
-                    </div>
-                    <div class="footer-links">
-                        <div class="row">
-                            <div class="col-md-4 col-sm-4 col-xs-12">
-                                <div class="footer-link-ul">
-                                    <ul>
-                                        <li><a href="#">FAQ</a></li>
-                                        <li><a href="#">Accounts</a></li>
-                                        <li><a href="#">Jobs</a></li>
-                                        <li><a href="#">Privacy</a></li>
-                                        <li><a href="#">Contact Us</a></li>
-                                        <li><a href="#">Only on Flixxit</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-4 col-xs-12">
-                                <div class="footer-link-ul">
-                                    <ul>
-                                        <li><a href="#">Gift Card Terms</a></li>
-                                        <li><a href="#">Media Centre</a></li>
-                                        <li><a href="#">Ways to Watch</a></li>
-                                        <li><a href="#">Cookie Preferences</a></li>
-                                        <li><a href="#">Speed Test</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-4 col-xs-12">
-                                <div class="footer-link-ul">
-                                    <ul>
-                                        <li><a href="#">Help Centre</a></li>
-                                        <li><a href="#">Investor Relations</a></li>
-                                        <li><a href="#">Terms of Use</a></li>
-                                        <li><a href="#">Corporate Information</a></li>
-                                        <li><a href="#">Legal Notices</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer-language">
-                        <div class="dropdown">
-                         
-                          
-                        </div>
-                    </div>
-                    <div class="copy-right">
-                        <span>Flixxit India</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+  <Footer/>
 </div>
   )
 }
