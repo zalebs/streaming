@@ -120,7 +120,7 @@ const SignIn = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await axios.post('https://giddy-rose-threads.cyclic.app/signin', { emailId, password });
+      const response = await axios.post('https://poised-undershirt-fish.cyclic.app/signin', { emailId, password });
 
       localStorage.setItem('token', response.data.token);
       localStorage.setItem('userId', response.data.emailId);

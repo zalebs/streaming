@@ -189,7 +189,7 @@ const User = () => {
         setMessage("Passwords do not match");
         return;
     }
-      const response = await fetch('https://giddy-rose-threads.cyclic.app/changepassword', {
+      const response = await fetch('https://poised-undershirt-fish.cyclic.app/changepassword', {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',

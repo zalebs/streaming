@@ -17,7 +17,7 @@ const Part1 = () => {
 
       async function fetchCount() {
         console.log("fetching ...")
-        const res = await fetch(`https://giddy-rose-threads.cyclic.app/usercreds`);
+        const res = await fetch(`https://poised-undershirt-fish.cyclic.app/usercreds`);
       
         const data = await res.json();
         console.log(data,"inside header")

@@ -50,7 +50,7 @@ const Card = ({ movies, banner }) => {
     setDislike(false);
     console.log(userId,"testing userid")
     // https://light-cow-bandanna.cyclic.app
-    await fetch('https://giddy-rose-threads.cyclic.app/movies/like', {
+    await fetch('https://poised-undershirt-fish.cyclic.app/movies/like', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -69,7 +69,7 @@ const Card = ({ movies, banner }) => {
     console.log(movieId,"dislike")
     setDislike(true);
     setLike(false);
-    await fetch('https://giddy-rose-threads.cyclic.app/movies/dislike', {
+    await fetch('https://poised-undershirt-fish.cyclic.app/movies/dislike', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -82,7 +82,7 @@ const Card = ({ movies, banner }) => {
 
   async function fetchCount() {
     console.log("fetching ...")
-    const res = await fetch(`https://giddy-rose-threads.cyclic.app/data`);
+    const res = await fetch(`https://poised-undershirt-fish.cyclic.app/data`);
     console.log(res,"response in fetch")
     const data = await res.json();
     console.log(data,"likes updated")

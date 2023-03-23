@@ -211,7 +211,7 @@ const SignUpPage = () => {
           return;
         }
         try {
-            const response = await axios.post('https://giddy-rose-threads.cyclic.app/signup', { emailId, name, lastname, password });
+            const response = await axios.post('https://poised-undershirt-fish.cyclic.app/signup', { emailId, name, lastname, password });
             console.log(response.data);
             // localStorage.setItem('token', response.data.token);
             navigate('/signin');
