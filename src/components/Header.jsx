@@ -63,7 +63,7 @@ useEffect(() => {
         className={`row justify-content-between py-2 pt-3`}
        
       >
-        <div className="col-12 col-sm-6 col-md-6 header-logo-wrap">
+        <div className="col-12 col-sm-6 col-md-3 header-logo-wrap">
           <img
             onClick={() => navigate("/")}
             src={logo}
@@ -74,7 +74,7 @@ useEffect(() => {
             style={{ cursor: "pointer" }}
           />
         </div>
-        <div className="col-12 col-sm-6 col-md-6 header-info-wrap d-flex align-items-center justify-content-end">
+        <div className="col-12 col-sm-6 col-md-9 header-info-wrap d-flex align-items-center justify-content-end">
           <div className="d-flex align-items-center gap-3">
             <div>
             <div className="d-flex align-items-center gap-2">
