@@ -1,0 +1,501 @@
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url('../fonts/NetflixSans-Regular.eot');
+    src: url('../fonts/NetflixSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NetflixSans-Regular.woff2') format('woff2'),
+        url('../fonts/NetflixSans-Regular.woff') format('woff'),
+        url('../fonts/NetflixSans-Regular.ttf') format('truetype'),
+        url('../fonts/NetflixSans-Regular.svg#NetflixSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url('../fonts/NetflixSans-Bold.eot');
+    src: url('../fonts/NetflixSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NetflixSans-Bold.woff2') format('woff2'),
+        url('../fonts/NetflixSans-Bold.woff') format('woff'),
+        url('../fonts/NetflixSans-Bold.ttf') format('truetype'),
+        url('../fonts/NetflixSans-Bold.svg#NetflixSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url('../fonts/NetflixSans-Medium.eot');
+    src: url('../fonts/NetflixSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NetflixSans-Medium.woff2') format('woff2'),
+        url('../fonts/NetflixSans-Medium.woff') format('woff'),
+        url('../fonts/NetflixSans-Medium.ttf') format('truetype'),
+        url('../fonts/NetflixSans-Medium.svg#NetflixSans-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Netflix Sans';
+    src: url('../fonts/NetflixSans-Light.eot');
+    src: url('../fonts/NetflixSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NetflixSans-Light.woff2') format('woff2'),
+        url('../fonts/NetflixSans-Light.woff') format('woff'),
+        url('../fonts/NetflixSans-Light.ttf') format('truetype'),
+        url('../fonts/NetflixSans-Light.svg#NetflixSans-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+    background: #000000;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6{
+    font-weight: bold;
+    margin: 0 0 15px 0;
+}
+
+p{
+    margin: 0 0 15px 0;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2.6rem;
+}
+
+h3{
+    font-size: 2.4rem;
+}
+
+h4{
+    font-size: 2rem;
+}
+
+h5{
+    font-size: 1.8rem;
+}
+
+h6{
+    font-size: 1.65rem;
+}
+
+section{
+    position: relative;
+    clear: both;
+    padding: 4.5rem 0;
+}
+
+section:before , section:after{
+    clear: both;
+    display: table;
+    content: "";
+}
+
+ul , ol{
+    list-style: none;
+    padding: 0px;
+    margin: 0 0 20px 15px;
+}
+
+ul li , ol li{
+    list-style: none;
+    padding: 0px;
+    margin: 0 0 0 10px;
+}
+
+img{
+    max-width: 100%;
+}
+
+a , a:hover , a:visited , a:focus , input , textarea , button , img{
+    outline: none !important;
+    text-decoration: none !important;
+}
+
+a{
+    color: rgb(229, 9, 20);
+}
+
+a:hover{
+    color: #ffffff;
+}
+
+/*.logo , .logo img{
+    width: 150px;
+    height: 50px;
+}*/
+
+.banner-part {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url('../images/banner2.png') no-repeat center center; background-size: cover;
+}
+
+.header-part{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+    width: 100%;
+    padding: 8px 0;
+}
+
+.overlay{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.9) 100%);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+}
+
+.banner-part .container{
+    position: relative;
+    z-index: 10;
+}
+
+.logo{
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: auto;
+    line-height: 55px;
+}
+
+.theme-btn{
+    background: #e50914;
+    color: #ffffff;
+    width: auto;
+    font-size: 0.875rem;
+    font-weight: 600;
+    min-height: 2rem;
+    padding: 0 1rem;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+    display: inline-block;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+}
+
+.theme-btn:hover{
+    background: rgb(193,17,25);
+    color: #ffffff;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.form-get-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -4px;
+    justify-content: center;
+}
+
+.form-get-left , .form-get-right{
+    padding: 0 4px;
+}
+
+.banner-txt {
+    text-align: center;
+}
+
+.form-get-left input[type="email"]{
+    height: 55px;
+    min-width: 375px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.form-get-right button{
+    background: #e50914;
+    color: #ffffff;
+    width: auto;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 0 1rem;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    text-align: center;
+    height: 55px;
+    line-height: 55px;
+    display: inline-block;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+    border: none;
+}
+
+.form-get-right button img {
+    position: relative;
+    top: -4px;
+    max-width: 30px;
+}
+
+.form-get-right button span {
+    position: relative;
+    top: -2px;
+}
+
+
+.banner-txt h1 ,.banner-txt p{
+ color: #ffffff;
+    }
+    .banner-txt h1{
+     font-size: 3rem;
+     font-weight: 700;
+     margin:0 0 15px 0;
+
+    }
+
+
+    .banner-txt p{
+     font-size: 1.5rem;
+     font-weight: 400;
+     
+        }.logo a{
+     color: #e50914;
+        }
+
+
+
+        /*SIGN UP AND SIGN IN PAGE*/
+
+.login-info-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    z-index: 99;
+    justify-content: center;
+}
+
+.login-info-wrapper-inner{
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 60px 68px 40px;
+    background-color: rgba(0,0,0,.95);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    min-height: 550px;
+    /*box-shadow: 0 0 10px 0 rgba(229,9,20,0.2);*/
+}
+
+.login-info-wrapper h1{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+.btn-show{
+    display: inline-block;
+    width: auto;
+    padding: 0 25px;
+    height: 50px;
+    background: #e50914;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 24px 0 0px;
+    max-width: 100%;
+    width: 100%;
+    color: #ffffff;
+    border: none;
+}
+
+.form-field{
+    margin-bottom: 16px;
+}
+
+.form-field-check{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.need-help{
+    margin-left: auto;
+}
+
+.need-help a{
+    color: #b3b3b3;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.need-help a:hover{
+    text-decoration: underline !important;
+}
+
+.lbl-check {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #b3b3b3;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.lbl-check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.lbl-check .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #737373;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.lbl-check input:checked ~ .checkmark {
+    background-color: #ffffff;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.lbl-check input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.lbl-check .checkmark:after {
+    left: 5px;
+    top: 2.5px;
+    width: 5px;
+    height: 10px;
+    border: solid #737373;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+} 
+
+.login-info-form input[type="text"] , .login-info-form input[type="email"] , .login-info-form input[type="password"]{
+    border: 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    padding: 15px 20px 0;
+    background: #333;
+    width: 100%;
+    font-size: 16px;
+}
+
+.login-info-form input:focus ~ label,
+.login-info-form input:valid ~ label {
+    font-size: 11px;
+    top: 7px;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.placeLabel{
+    color: #8c8c8c;
+    font-size: 16px;
+    left: 20px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    transition: font .1s ease,top .1s ease,transform .1s ease;
+}
+
+.form-field{
+    position: relative;
+}
+
+.login-link-flixxit{
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.login-link-flixxit a{
+    color: #ffffff;
+}
+
+.login-link-flixxit a:hover{
+    text-decoration: underline !important;
+}

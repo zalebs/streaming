@@ -1,0 +1,135 @@
+header .d-flex.align-items-center.gap-2 input[type="search"] {
+    border-radius: 30px;
+    height: 45px;
+    padding: 0 25px;
+    border: none;
+    margin-left:5px;
+}
+
+.search {
+    padding: 15px;
+}
+
+.search h1{
+    color: #fff;
+}
+
+.guest {
+    margin: 0px 0px 0px 0;
+    color: #fff;
+    font-size: 22px;
+}
+
+.iframe-wrapper iframe {
+    width: 100% !important;
+}
+
+.iframe-wrapper-out {
+    padding: 0 15px;
+    margin-bottom: 35px;
+}
+
+.App {
+    padding: 0 15px;
+}
+
+.iframe-wrapper.border.border-white {
+    padding: 15px;
+}
+
+header {
+    padding: 0 15px;
+}
+
+.react-multi-carousel-list{
+    margin-left: -10px;
+}
+.dislikebtn , .likebtn{
+    display: none;
+}
+.wrapperlikedislike{
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+}
+
+.posters_container {
+    margin-bottom: 40px;
+}
+
+button.like-btn{
+    margin-right: 7px;
+}
+
+.dislike-btn svg, .like-btn svg {
+    margin-right: 3px;
+    position: relative;
+    top: -2px;
+}
+
+button.like-btn, button.dislike-btn {
+    padding: 3px 7px 4px 7px;
+}
+
+button.like-btn {
+    background: #5D9C59;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+}
+
+button.dislike-btn{
+    background: #DF2E38;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+}
+
+.slider-wrapper{
+    padding: 0 15px;
+}
+
+/* RESPONSIVE MEDIA QUERY */
+
+@media(max-width:767.90px){
+
+    .iframe-wrapper-out .row .col-md-6{
+        margin-bottom: 30px;
+    }
+
+    .iframe-wrapper-out .row .col-md-6:last-child{
+        margin-bottom: 0px;
+    }
+
+}
+
+@media(max-width:576.90px){
+    .col-12.col-sm-6.col-md-6.header-logo-wrap {
+        text-align: center;
+    }
+
+    .header-info-wrap.justify-content-end {
+        justify-content: center !important;
+    }
+}
+
+@media(max-width:480.90px){
+    header .d-flex.align-items-center.gap-2 input[type="search"]{
+        max-width: 180px;
+    }
+
+    .guest{
+        font-size: 18px;
+    }
+
+    .user-pic{
+        min-width: 32px;
+    }
+}
+
+@media(max-width:340.90px){
+    header .d-flex.align-items-center.gap-2 input[type="search"] {
+        max-width: 150px;
+        font-size: 13px;
+    }
+}

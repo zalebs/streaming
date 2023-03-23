@@ -1,0 +1,47 @@
+/* .like-btn,
+.dislike-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.like-btn:focus,
+.dislike-btn:focus {
+  outline: none;
+}
+
+.like-btn:hover,
+.dislike-btn:hover {
+  background-color: #f5f5f5;
+}
+
+.like-btn.clicked .fa-thumbs-up,
+.dislike-btn.clicked .fa-thumbs-down {
+  color: blue;
+}
+
+.dislike-btn.clicked .fa-thumbs-down {
+  color: red;
+}
+
+.like-btn span,
+.dislike-btn span {
+  margin-left: 0.5rem;
+}
+
+.fill{
+fill:black;
+}
+
+.rede{
+  background-color: red;
+} */
+
+
+.guest{
+  margin: 0px 0px 0px -43px;
+}

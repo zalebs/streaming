@@ -1,0 +1,189 @@
+@media(min-width: 1920px){
+	.container{
+		max-width: calc(66.66666666666666% - 6rem);
+	}
+}
+.banner-txt{
+	padding-top: 100px;
+}
+
+@media(min-width: 1920px){
+	.container{
+		max-width: calc(66.66666666666666% - 6rem);
+	}
+}
+
+@media(max-width: 1200px){
+	.image-info-right h2{
+		font-size: 2rem;
+	}
+
+	.image-info-right p , .banner-txt p{
+		font-size: 1rem;
+	}
+
+	.banner-txt h1{
+		font-size: 2.2rem;
+	}
+
+	.banner-txt p{
+		margin-bottom: 10px;
+	}
+
+	.form-get {
+		margin-top: 20px;
+	}
+}
+
+@media(max-width: 991px){
+	.plan-box-blog-title{
+		width: 101px;
+	}
+}
+
+@media(max-width: 767px){
+	.form-get-left input[type="email"]{
+		min-width: 315px;
+	}
+
+	.image-info-right{
+		text-align: center;
+		margin-top: 30px;
+	}
+
+	.plan-box-blog-title {
+		width: 71px;
+		height: 71px;
+		font-size: 14px;
+	}
+
+	.logo{
+		font-size: 40px;
+	}
+}
+
+@media(max-width: 576px){
+	.form-get-row{
+		margin: 0px;
+		display: block;
+	}
+
+	.form-get-left, .form-get-right{
+		padding: 0px;
+	}
+
+	.form-get-left{
+		margin-bottom: 15px;
+	}
+
+	.form-get-left input[type="email"]{
+		min-width: 100%;
+		height: 48px;
+	}
+
+	.banner-txt h1 {
+		font-size: 1.8rem;
+	}
+
+	.form-get-right button {
+		font-size: 16px;
+		height: 48px;
+		line-height: 48px;
+	}
+
+	.plan-grid-table table tr td:first-child{
+		width: 100%;
+		text-align: center;
+	}
+
+	.plan-grid-table table tr td{
+		width: 25%;
+	}
+
+	.plan-grid-table table tr{
+		flex-wrap: wrap;
+	}
+
+	.plan-grid-table table tr td{
+		padding: 12px 5px;
+	}
+
+	.plan-grid-box{
+		max-width: 100%;
+	}
+
+	.plan-box-blog{
+		padding: 0 3px;
+	}
+
+	.plan-box-blog-title{
+		width: 100%;
+		padding: 15px 10px;
+	}
+
+	section {
+		padding: 2.2rem 0;
+	}
+
+	.footer-part{
+		padding: 2.2rem 0;	
+	}
+	/*SIGN UP AND SIGN IN PAGE*/
+	 .login-info-wrapper-inner{
+		 max-width: 92%;
+		 padding: 30px 20px;
+		 }
+		 	/*ABOUT PAGE*/
+
+	.new-release-box-top {
+		padding: 25px 15px;
+	}
+
+	.new-release-box {
+		padding: 0 15px;
+	}
+}
+
+@media(max-width: 380px){
+	.plan-box-blog-title {
+		font-size: 13px;
+	}
+}
+
+
+
+@media(max-width: 767px){
+
+	/*NEW STYLE*/
+/* new style start */
+	body{
+		font-size: 1rem;	
+	}
+
+	h1{
+	    font-size: 2rem;
+	}
+
+	h2{
+	    font-size: 1.8rem;
+	}
+
+	h3{
+	    font-size: 1.6rem;
+	}
+
+	h4{
+	    font-size: 1.4rem;
+	}
+
+	h5{
+	    font-size: 1.2rem;
+	}
+
+	h6{
+	    font-size: 1rem;
+	}
+
+	.small-font p , .new-release-box-top a , .new-release-box-bottom a{
+		font-size: 16px;
+	}}
