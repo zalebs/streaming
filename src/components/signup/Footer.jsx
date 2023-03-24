@@ -65,6 +65,7 @@ const Footer = () => {
                 </div> */}
                 <div className="copy-right">
                     <span>Flixxit UK</span>
+                    <span>Made for you</span>
                 </div>
             </div>
         </div>
